@@ -1,4 +1,4 @@
-fast_polynomial
+par-poly-eval
 ===============
 
 This crate implements a hybrid Estrin's/Horner's method suitable for evaluating polynomials _fast_
