@@ -1,4 +1,4 @@
-use fast_polynomial::poly;
+use par_poly_eval::poly;
 
 // version from readme
 fn horners_method(x: f64, coefficients: &[f64]) -> f64 {

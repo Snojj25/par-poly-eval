@@ -189,7 +189,7 @@ fn criterion_benchmark(c: &mut Criterion) {
         g.bench_function(format!("{:04}: Estrin's Scheme", coeffs.len()), |b| {
             b.iter(|| {
                 for _ in 0..100 {
-                    black_box(fast_polynomial::poly(x, coeffs));
+                    black_box(par_poly_eval::poly(x, coeffs));
                 }
             });
         });

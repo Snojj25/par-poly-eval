@@ -1,7 +1,7 @@
 [package]
-name = "fast_polynomial"
+name = "par-poly-eval"
 version = "0.1.0"
-authors = ["novacrazy <novacrazy@gmail.com>"]
+authors = ["Snojj25"]
 edition = "2021"
 license = "MIT"
 keywords = ["polynomial", "horner", "estrin"]
@@ -9,8 +9,7 @@ categories = ["algorithms", "no-std"]
 description = "Faster polynomial evaluation using Estrin's Scheme to exploit instruction-level parallelism"
 include = ["src/**/*", "LICENSE", "README.md"]
 readme = "README.md"
-documentation = "https://docs.rs/fast_polynomial"
-repository = "https://github.com/novacrazy/fast_polynomial"
+repository = "https://github.com/Snojj25/par-poly-eval"
 
 [features]
 default = ["fma", "std"]
